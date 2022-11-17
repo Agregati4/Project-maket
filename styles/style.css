@@ -64,13 +64,12 @@
 .four-columns {
   display: flex;
   margin: 0;
-  min-height: 601px;
 }
 
 .column {
   border-radius: 2px;
   margin: 0 6px 0 0;
-  height: 100%;
+  min-height: 601px;
   width: 266px;
   box-sizing: border-box;
   display: flex;
@@ -126,6 +125,10 @@
   display: flex;
   max-height: 16px;
   margin: 0 0 17px;
+}
+
+.column__list-element:last-of-type {
+  margin: 0 0 54px;
 }
 
 .column__list-icon {
